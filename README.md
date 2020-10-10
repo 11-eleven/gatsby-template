@@ -36,6 +36,10 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Your site is now running at `http://localhost:8000`!
 
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+
+    Open the `<APP_NAME>` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+
 1. **At eleven, we are politically correct.**
     So rename the base branch to `main` instead of `master`. In your terminal:
      ```git checkout -b main # Creating new base branch
@@ -46,9 +50,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 1. **Transfer ownership to 11-eleven**
     Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
     
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+1. **Deploy on Netlify**
+    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
