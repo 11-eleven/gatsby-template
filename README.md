@@ -51,7 +51,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
     
 1. **Deploy on Netlify**
-    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/11-eleven/gatsby-template)
 
 
 ## 🧐 What's inside?
