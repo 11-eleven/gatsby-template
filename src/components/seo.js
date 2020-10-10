@@ -1,9 +1,4 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+// Do not touch this file
 
 import React from "react"
 import PropTypes from "prop-types"

@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    // Rename the following for SEO purposes: title, description and author
+    title: `eleven x Gatsby starter template`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -18,6 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        // Rename below for SEO purposes, icon for favicon
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
