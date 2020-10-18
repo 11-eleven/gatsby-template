@@ -23,14 +23,6 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new <APP_NAME> https://github.com/11-eleven/gatsby-template.git
     ```
 
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd <APP_NAME>
-    gatsby develop
-    ```
 
 1. **At eleven, we are politically correct.**
     So rename the base branch to `main` instead of `master`. In your terminal:
@@ -39,10 +31,20 @@ _Have another more specific idea? You may want to check out our vibrant collecti
      hub create # Craete a git repo
      git push -u origin main # Push everything to Github```
  
+ 
 1. **Transfer ownership to 11-eleven**
     Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
     
   
+1.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd <APP_NAME>
+    gatsby develop
+    ```
+    
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
