@@ -33,6 +33,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
      ```
      git checkout -b main # Creating new base branch
      git rebase --onto main master # Moving everything from master to amin, base branch is now called main
+     git branch -d master # Delete master branch as it is unecessary
      hub create # Create a git repo
      git push -u origin main # Push everything to Github
      ```
