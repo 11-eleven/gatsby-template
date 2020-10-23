@@ -29,14 +29,14 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1. **At eleven, we are politically correct.**
     So rename the base branch to `main` instead of `master`. In your terminal:
-     ```git checkout -b main # Creating new base branch
+    
+     ```
+     git checkout -b main # Creating new base branch
      git rebase --onto main master # Moving everything from master to amin, base branch is now called main
      hub create # Create a git repo
      git push -u origin main # Push everything to Github
-     
+     ```
  
- 
-
 1. **Transfer ownership to 11-eleven**
     Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
     
