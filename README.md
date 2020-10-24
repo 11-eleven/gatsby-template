@@ -23,15 +23,34 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new <APP_NAME> https://github.com/11-eleven/gatsby-template.git
     ```
 
+1. **Then go into the folder you just created**
+
+   ```cd <APP_NAME>```
+
+1. **At eleven, we are politically correct.**
+    So rename the base branch to `main` instead of `master`. In your terminal:
+    
+     ```
+     git checkout -b main # Creating new base branch
+     git rebase --onto main master # Moving everything from master to amin, base branch is now called main
+     git branch -d master # Delete master branch as it is unecessary
+     hub create # Create a git repo
+     git push -u origin main # Push everything to Github
+     ```
+ 
+1. **Transfer ownership to 11-eleven**
+    Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
+    
+  
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd <APP_NAME>
     gatsby develop
     ```
-
+    
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
@@ -40,16 +59,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Open the `<APP_NAME>` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-1. **At eleven, we are politically correct.**
-    So rename the base branch to `main` instead of `master`. In your terminal:
-     ```git checkout -b main # Creating new base branch
-     git rebase --onto main master # Mobing everything from master to amin, base branch is now called main
-     hub create # Craete a git repo
-     git push -u origin main # Push everything to Github```
- 
-1. **Transfer ownership to 11-eleven**
-    Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
-    
+
 1. **Deploy on Netlify**
 
     [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/11-eleven/gatsby-template)
