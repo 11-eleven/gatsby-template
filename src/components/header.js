@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
 
 const Header = ({ siteTitle }) => (
@@ -28,6 +27,7 @@ const Logo = styled.h1`
 
   a {
     color: black;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
 
     &:hover {
       background: none;
