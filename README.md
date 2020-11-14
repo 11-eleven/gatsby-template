@@ -39,7 +39,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
      ```
  
 1. **Transfer ownership to 11-eleven**
-    Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven.
+    Go on `github.com`, to the repo you just created, and transfer ownership to 11-eleven. Remember to change the visibility of the repository to **private**.
     
   
 1.  **Start developing.**
