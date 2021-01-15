@@ -3,7 +3,7 @@ module.exports = {
     // Rename the following for SEO purposes: title, description and author
     title: `eleven x Gatsby starter template`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@gatsbyjs x eleven`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
