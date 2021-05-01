@@ -1,3 +1,9 @@
+if (process.env.NODE_ENV != "production") {
+  require("dotenv").config({
+    path: `.env`,
+  })
+}
+
 module.exports = {
   siteMetadata: {
     // Rename the following for SEO purposes: title, description and author
