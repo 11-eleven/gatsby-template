@@ -1,33 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header />
       <Wrapper>
         <main>{children}</main>
-        <footer>
-          <p>
-          © {new Date().getFullYear()} eleven x Gatsby
-          </p>
-        </footer>
       </Wrapper>
+      <Footer />
     </>
   )
 }

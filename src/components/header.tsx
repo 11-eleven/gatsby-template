@@ -1,13 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Wrapper>
-      <Logo>
-        <a href="/">
-          eleven
-        </a>
-      </Logo>
+    <Logo>
+      <a href="/">eleven</a>
+    </Logo>
   </Wrapper>
 )
 
@@ -24,4 +22,3 @@ const Logo = styled.h1`
     color: black;
   }
 `
-
