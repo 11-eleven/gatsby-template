@@ -1,14 +1,10 @@
-import firebase from 'firebase/app'
+import { FirebaseApp, initializeApp } from "firebase/app"
 import config from './config'
 
-let instance: firebase.app.App
+export let app: FirebaseApp
 
-export default function getFirebase() {
+(function getFirebase() {
   if (typeof window !== "undefined") {
-    if (instance) return instance
-    instance = firebase.initializeApp(config.firebase)
-    return instance
+    app = initializeApp(config.firebase)
   }
-
-  return null
-}
+})()
